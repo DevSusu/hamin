@@ -31,10 +31,12 @@ public class Hanoi{
         System.out.println("============\t============\t============\n");
 
         try{
-            Thread.sleep(1000);
+            Thread.sleep(100);
         }catch(InterruptedException e){}
 
     }
+
+    // 처음으로 0이 나오는 위치. 비어있는 위치
     static int end_of_array(int[] array){
         for(int i = 0; i < array.length; i++){
             if(array[i] == 0)
@@ -42,8 +44,37 @@ public class Hanoi{
         }
         return 0;
     }
+    // disk가 있는 마지막 위치
+    static int end_value(int[] array){
+      int l = end_of_array(array);
+
+      if( l!=0 ){
+        return l-1;
+      }
+      return 0;
+    }
+
+    // 디스크의 상태 A, B, C, 깊이 n 을 모두 C로 옮기고, 과정을 출력하고, 횟수를 세는 함수.
     static void hanoi(int n, int[] A, int[] B, int[] C){
         /*      Implement your code Here      */
+
+        if ( n == 1 ) {
+          int ic = end_of_array(C);
+          int ia = end_value(A);
+
+          C[ic] = A[ia];
+          A[ia] = 0;
+
+        }
+        else {
+
+          // MoveTower(disk - 1, source, spare, dest)
+          // move disk from source to dest
+          // MoveTower(disk - 1, spare, dest, source)
+
+        }
+
+        visualization(A,B,C);
 
 
     }
