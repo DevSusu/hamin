@@ -4,27 +4,26 @@ public class Hanoi{
 
   public static class Tower {
 
-    Tower() {}
     // constructor
     Tower(int tower[]){
       this.tower = tower;
     }
 
-    public void setTower(int tower[]) {
-      this.tower = tower;
-    }
-
+    // delete and return the last element of tower
     public int pop() {
       int l = end_value( tower );
       int v = tower[l];
       tower[l] = 0;
       return v;
     }
-
+    // move the last element to dest tower
     public void transferTo(Tower dest) {
-
+      // add count whenever transfer happens
+      count++;
+      // move element
       dest.tower[ end_of_array(dest.tower) ] = pop();
-
+      // visualize whenever transfer happens
+      visualization(tower_a.tower,tower_b.tower,tower_c.tower);
     }
 
     public int tower[];
@@ -127,17 +126,10 @@ public class Hanoi{
     static void hanoi(int n, Tower A, Tower B, Tower C) {
 
       if ( n == 1 ) {
-        count++;
         A.transferTo(C);
-        visualization(tower_a.tower,tower_b.tower,tower_c.tower);
       } else {
         hanoi(n-1,A,C,B);
-
-        count++;
         A.transferTo(C);
-
-        visualization(tower_a.tower,tower_b.tower,tower_c.tower);
-
         hanoi(n-1,B,A,C);
       }
 
