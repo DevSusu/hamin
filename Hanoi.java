@@ -1,6 +1,39 @@
 import java.util.Scanner;
 
 public class Hanoi{
+
+  public static class Tower {
+
+    Tower() {}
+    // constructor
+    Tower(int tower[]){
+      this.tower = tower;
+    }
+
+    public void setTower(int tower[]) {
+      this.tower = tower;
+    }
+
+    public int pop() {
+      int l = end_value( tower );
+      int v = tower[l];
+      tower[l] = 0;
+      return v;
+    }
+
+    public void transferTo(Tower dest) {
+
+      dest.tower[ end_of_array(dest.tower) ] = pop();
+
+    }
+
+    public int tower[];
+  }
+
+  public static Tower tower_a;
+  public static Tower tower_b;
+  public static Tower tower_c;
+
     public static int disk_A[];
     public static int disk_B[];
     public static int disk_C[];
@@ -65,8 +98,20 @@ public class Hanoi{
           C[ic] = A[ia];
           A[ia] = 0;
 
+          visualization(A,B,C);
+
         }
         else {
+
+          hanoi(n-1, A,C,B);
+
+          int ic = end_of_array(C);
+          int ia = end_value(A);
+
+          C[ic] = A[ia];
+          A[ia] = 0;
+
+          hanoi(n-1, B,C,A);
 
           // MoveTower(disk - 1, source, spare, dest)
           // move disk from source to dest
@@ -78,6 +123,30 @@ public class Hanoi{
 
 
     }
+
+    static boolean hanoi(int n, Tower A, Tower B, Tower C) {
+
+      if ( n == 1 ) {
+        count++;
+        A.transferTo(C);
+        return true;
+      } else {
+        if ( hanoi(n-1,A,C,B) )
+          visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+
+        count++;
+        A.transferTo(C);
+
+        visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+
+        if ( hanoi(n-1,B,A,C) )
+          visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+      }
+
+      return false;
+
+    }
+
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         disk_A = new int[6];
@@ -96,8 +165,15 @@ public class Hanoi{
             disk_C[i] = 0;
         }
 
+        tower_a = new Tower(disk_A);
+        tower_b = new Tower(disk_B);
+        tower_c = new Tower(disk_C);
+
         visualization(disk_A, disk_B, disk_C);
-        hanoi(level, disk_A, disk_B, disk_C);
+
+        if ( hanoi(level, tower_a,tower_b,tower_c) )
+          visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+
 		System.out.println("The number of moving operation : " + count);
 
     }
