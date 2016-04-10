@@ -124,26 +124,22 @@ public class Hanoi{
 
     }
 
-    static boolean hanoi(int n, Tower A, Tower B, Tower C) {
+    static void hanoi(int n, Tower A, Tower B, Tower C) {
 
       if ( n == 1 ) {
         count++;
         A.transferTo(C);
-        return true;
+        visualization(tower_a.tower,tower_b.tower,tower_c.tower);
       } else {
-        if ( hanoi(n-1,A,C,B) )
-          visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+        hanoi(n-1,A,C,B);
 
         count++;
         A.transferTo(C);
 
         visualization(tower_a.tower,tower_b.tower,tower_c.tower);
 
-        if ( hanoi(n-1,B,A,C) )
-          visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+        hanoi(n-1,B,A,C);
       }
-
-      return false;
 
     }
 
@@ -171,8 +167,7 @@ public class Hanoi{
 
         visualization(disk_A, disk_B, disk_C);
 
-        if ( hanoi(level, tower_a,tower_b,tower_c) )
-          visualization(tower_a.tower,tower_b.tower,tower_c.tower);
+        hanoi(level, tower_a,tower_b,tower_c);
 
 		System.out.println("The number of moving operation : " + count);
 
