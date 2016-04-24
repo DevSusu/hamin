@@ -50,3 +50,5 @@ how to expect a program's output? - debugging.
 ### Q&A
 
 * Week 4
+Getter & Setter
+Instance & 

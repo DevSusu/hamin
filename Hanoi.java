@@ -26,8 +26,23 @@ public class Hanoi{
       visualization(tower_a.tower,tower_b.tower,tower_c.tower);
     }
 
+    public void setHeight(int height){
+      // validation
+      if( height < 0 ) {
+        return ;
+      }
+
+      // consistancy
+      this.height = height;
+      this.volume = heigt*width*length;
+    }
+
     public int tower[];
+    private int height, width, length;
+    private int volume;
   }
+
+  tower.setHeight(5);
 
   public static Tower tower_a;
   public static Tower tower_b;
