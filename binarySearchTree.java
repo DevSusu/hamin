@@ -61,21 +61,73 @@ public class binarySearchTree{
       }
 
       while(true) {
-
+        if( tmp.getValue() > status.getValue() ) {
+          if( status.getRight() == null ) {
+            status.setRight(tmp); // how to use class setters
+            break;
+          } else {
+            status = status.getRight();
+            // 'status'에 'status의 오른쪽 노드'를 넣어주겠다.
+          }
+        }
+        else {
+          if( status.getLeft() == null ) {
+            status.setLeft(tmp); // how to use class setters
+            // status.left = tmp
+            // public void setLeft(node n){
+            //   this.left = n;
+            // }
+            break;
+          } else {
+            status = status.getLeft();
+            // 'status'에 'status의 오른쪽 노드'를 넣어주겠다.
+          }
+        }
       }
 
     }
 
     public boolean find(int value){
 
-      /* implement your own code */
+      node status = this.root;
+
+      // if( status == null )
+      // {
+      //     return false;
+      // }
+
+      while(true) {
+        if( value > status.getValue() ) {
+          if( status.getRight() == null ) {
+            return false;
+          } else {
+            status = status.getRight();
+          }
+        }
+        else if( value < status.getValue() ) {
+          if( status.getLeft() == null ) {
+            return false;
+          } else {
+            status = status.getLeft();
+          }
+        }
+        else {
+          return true;
+        }
+      }
 
     }
 
+    // n 밑으로 있는 노드를 전위순회하며 value를 출력하는 함수
     public void traverseAllNode(node n){
 
+      if (n == null) {
+        return ;
+      }
       /* implement your own code */
-
+      traverseAllNode(n.getLeft());
+      System.out.print(n.getValue()+" ");
+      traverseAllNode(n.getRight());
     }
 
 
@@ -121,7 +173,7 @@ public class binarySearchTree{
 
 
     ///// Deactivete from here to use SIMPLE TEST CODE  /////
-    /*
+
     BufferedReader br = new BufferedReader(new FileReader("sample_input.txt"));
     int sorted_array[] = new int[100000];
 
@@ -183,7 +235,7 @@ public class binarySearchTree{
   /////           2. binary search(with sorted_array)         /////
   /////           3. binary search tree                       /////
   /////   When you write report,                              /////
-
+  /*
   double start = System.currentTimeMillis();
   for(int i = 0; i < 100000; i++)
   LinearSearch(sorted_array, sorted_array[i]);
@@ -202,7 +254,7 @@ public class binarySearchTree{
   duration = System.currentTimeMillis()-start;
   System.out.println("BST Search: " +duration);
 
-  */
+
   /////   Deactivate to here to use SIMPLE TEST CODE  /////
 
 
@@ -220,7 +272,7 @@ public class binarySearchTree{
   /////////////////////////////////////////
 
   /////   Activate from here to use SIMPLE TEST CODE  /////
-
+  /*
   b.insert(10);
   b.insert(5);
   b.insert(8);
@@ -236,7 +288,7 @@ public class binarySearchTree{
 
   /////  Test find method /////
 
-  /////       Can find    /////
+  ///       Can find    /////
   if(b.find(10))  System.out.println("find 10");
   else            System.out.println("cannot find 10");
   if(b.find(5))  System.out.println("find 5");
@@ -268,6 +320,7 @@ public class binarySearchTree{
   b.traverseAllNode(b.getRoot());
 
   System.out.println();
+  */
   /////   Activate to here to use SIMPLE TEST CODE    /////
 }
 
