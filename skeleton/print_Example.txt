@@ -1,0 +1,26 @@
+# simple view format
+
+Regular Saving Account
+Account No. : 1001
+Owner       : dklee
+Balance     : 796410
+
+# detail view format
+
+Cha Bank
+Regular Saving Account
+Account No. : 1003-04-202033
+Owner       : dklee
+Balance     : 796410
+Transaction in a month (2016-06-21 ~ 2016-07-21)
+date        |   change  |   balance |   note
+2015-03-01  |   300000  |   300000  |   join
+2015-03-02  |   -3000   |   297000  |   CU
+2015-03-05  |   4000    |   301000  |   YSKIM
+2015-03-15  |   300000  |   601000  |   Lesson pay
+2015-04-01  |   3000    |   604000  |   2015-03 interest
+2015-05-01  |   6010    |   610010  |   2015-04 interest
+2015-05-18  |   -6700   |   603310  |   KFC
+2015-05-21  |   -13000  |   590310  |   HO
+2015-06-01  |   6100    |   596410  |   2015-05 interest
+2015-06-21  |   200000  |   796410  |   Pay
