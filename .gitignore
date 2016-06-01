@@ -1,3 +1,6 @@
+*.pdf
+hw*
+ppt/
 
 # Created by https://www.gitignore.io/api/windows,osx,java
 
