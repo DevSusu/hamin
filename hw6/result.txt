@@ -1,0 +1,932 @@
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu1.txt
+I like an icecream.
+An icecream is very delicious.
+The most delicious flavor of icecream
+is melon. I love it.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu2.txt
+Summer is comming. It's very hot.
+People go beach at summer. I like to go
+there, too. Although summer is very hot,
+I like summer.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu3.txt
+I like banana. The Banana is very sweet,
+and delicious. I eat banana everyday.
+The Banana is good for diet. Monkey banana
+is also good. Monkey loves banana too.
+Gorilla loves banana too.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu4.txt
+Daegu is the city of Korea. It is the
+3rd biggest city in Korea. The weather of
+Daegu is very hot. It's nickname is
+Daefrica. There is nowhere to visit in Daegu
+but there are lots of delicious food.
+I love Daegu.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu5.txt
+Coding is very fun. I can use C++, JAVA,
+and Python. C++ is very hard. When I do
+coding, I play music. I call this "Nodongyo".
+It is also good to drink beer when coding.
+I will do coding until I die.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu6.txt
+Dog and cat are cute. I like dog and cat both.
+Dog is very cute and cat is very lovely.
+A sound of dog is meongmeong, and a sound of
+cat is yaong. Dog and Dat likes me too.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu7.txt
+Banana is suffering pain now. Banana is
+dying because of a contagious disease.
+In old time, banana suffered plague, and
+one species died out. We should prevent it,
+because banana is very delcious. I want to
+eat banana every time. I like banana juice, banana
+milk, and banana chocopie.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu8.txt
+Banana is banana and banana is not apple.
+Banana has banana flavor. Banana has banana
+smell. Banana is yellow. Banana is white if
+banana put off it's cloth.
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu9.txt
+Chasangkyun is Handsome
+Jinyong is Handsome
+Dongkyu is Handsome
+Jongin is Handsome
+Yunsu is Handsome
+Jinyon is Ugly
+----------------------------------------------
+/Users/susu/Workspace/Java/hamin/hw6/docu/docu10.txt
+A hand has five finger.
+I use hand when I study. I also
+use hand when I eat delicious food.
+I wash my hand well. My hand is cute.
+My hand has good smell.
+----------------------------------------------
+ * JAVA[1]
+5 1.0
+
+ * OLD[1]
+7 1.0
+
+ * SPECIES[1]
+7 1.0
+
+ * GORILLA[1]
+3 1.0
+
+ * SHOULD[1]
+7 1.0
+
+ * BECAUSE[1]
+7 2.0
+
+ * EVERY[1]
+7 1.0
+
+ * STUDY[1]
+10 1.0
+
+ * PLAY[1]
+5 1.0
+
+ * WHEN[2]
+5 1.0
+10 1.0
+
+ * DOG[1]
+6 5.0
+
+ * IF[1]
+8 1.0
+
+ * VERY[7]
+1 0.14285715
+2 0.2857143
+3 0.14285715
+4 0.14285715
+5 0.2857143
+6 0.2857143
+7 0.14285715
+
+ * IN[2]
+4 1.0
+7 0.5
+
+ * CLOTH[1]
+8 1.0
+
+ * IS[10]
+1 0.2
+2 0.2
+3 0.3
+4 0.5
+5 0.3
+6 0.4
+7 0.3
+8 0.4
+9 0.6
+10 0.1
+
+ * IT[4]
+1 0.25
+4 0.25
+5 0.25
+7 0.25
+
+ * HANDSOME[1]
+9 5.0
+
+ * HOT[2]
+2 1.0
+4 0.5
+
+ * AN[1]
+1 2.0
+
+ * JINYONG[1]
+9 1.0
+
+ * BEER[1]
+5 1.0
+
+ * OUT[1]
+7 1.0
+
+ * MONKEY[1]
+3 2.0
+
+ * RD[1]
+4 1.0
+
+ * AT[1]
+2 1.0
+
+ * ARE[2]
+4 0.5
+6 0.5
+
+ * TOO[3]
+2 0.33333334
+3 0.6666667
+6 0.33333334
+
+ * DISEASE[1]
+7 1.0
+
+ * WANT[1]
+7 1.0
+
+ * EAT[3]
+3 0.33333334
+7 0.33333334
+10 0.33333334
+
+ * BANANA[3]
+3 2.3333333
+7 2.6666667
+8 3.3333333
+
+ * MILK[1]
+7 1.0
+
+ * CALL[1]
+5 1.0
+
+ * A[3]
+6 0.6666667
+7 0.33333334
+10 0.33333334
+
+ * C[1]
+5 2.0
+
+ * YAONG[1]
+6 1.0
+
+ * NOWHERE[1]
+4 1.0
+
+ * COMMING[1]
+2 1.0
+
+ * ONE[1]
+7 1.0
+
+ * I[8]
+1 0.25
+2 0.25
+3 0.25
+4 0.125
+5 0.75
+6 0.125
+7 0.25
+10 0.625
+
+ * PYTHON[1]
+5 1.0
+
+ * LOVELY[1]
+6 1.0
+
+ * OFF[1]
+8 1.0
+
+ * HAND[1]
+10 6.0
+
+ * SUFFERED[1]
+7 1.0
+
+ * THE[3]
+1 0.33333334
+3 0.6666667
+4 1.0
+
+ * LOVE[2]
+1 0.5
+4 0.5
+
+ * SOUND[1]
+6 2.0
+
+ * ALTHOUGH[1]
+2 1.0
+
+ * FUN[1]
+5 1.0
+
+ * SMELL[2]
+8 0.5
+10 0.5
+
+ * FLAVOR[2]
+1 0.5
+8 0.5
+
+ * BUT[1]
+4 1.0
+
+ * LOTS[1]
+4 1.0
+
+ * MUSIC[1]
+5 1.0
+
+ * DIE[1]
+5 1.0
+
+ * WEATHER[1]
+4 1.0
+
+ * CHOCOPIE[1]
+7 1.0
+
+ * USE[2]
+5 0.5
+10 1.0
+
+ * BIGGEST[1]
+4 1.0
+
+ * SWEET[1]
+3 1.0
+
+ * PREVENT[1]
+7 1.0
+
+ * CONTAGIOUS[1]
+7 1.0
+
+ * CITY[1]
+4 2.0
+
+ * LOVES[1]
+3 2.0
+
+ * CHASANGKYUN[1]
+9 1.0
+
+ * DAT[1]
+6 1.0
+
+ * JUICE[1]
+7 1.0
+
+ * TO[4]
+2 0.25
+4 0.25
+5 0.25
+7 0.25
+
+ * HAS[2]
+8 1.0
+10 1.0
+
+ * CUTE[2]
+6 1.0
+10 0.5
+
+ * FOOD[2]
+4 0.5
+10 0.5
+
+ * BEACH[1]
+2 1.0
+
+ * APPLE[1]
+8 1.0
+
+ * THERE[2]
+2 0.5
+4 1.0
+
+ * ITS[3]
+2 0.33333334
+4 0.33333334
+8 0.33333334
+
+ * DAEGU[1]
+4 4.0
+
+ * DO[1]
+5 2.0
+
+ * FIVE[1]
+10 1.0
+
+ * DELICIOUS[4]
+1 0.5
+3 0.25
+4 0.25
+10 0.25
+
+ * ME[1]
+6 1.0
+
+ * YUNSU[1]
+9 1.0
+
+ * GOOD[3]
+3 0.6666667
+5 0.33333334
+10 0.33333334
+
+ * DRINK[1]
+5 1.0
+
+ * DELCIOUS[1]
+7 1.0
+
+ * BOTH[1]
+6 1.0
+
+ * MOST[1]
+1 1.0
+
+ * CODING[1]
+5 4.0
+
+ * JONGIN[1]
+9 1.0
+
+ * FOR[1]
+3 1.0
+
+ * MY[1]
+10 3.0
+
+ * CAN[1]
+5 1.0
+
+ * MEONGMEONG[1]
+6 1.0
+
+ * NICKNAME[1]
+4 1.0
+
+ * NOT[1]
+8 1.0
+
+ * LIKE[5]
+1 0.2
+2 0.4
+3 0.2
+6 0.2
+7 0.2
+
+ * NODONGYO[1]
+5 1.0
+
+ * AND[5]
+3 0.2
+5 0.2
+6 1.0
+7 0.4
+8 0.2
+
+ * DAEFRICA[1]
+4 1.0
+
+ * CAT[1]
+6 4.0
+
+ * NOW[1]
+7 1.0
+
+ * WASH[1]
+10 1.0
+
+ * UGLY[1]
+9 1.0
+
+ * THIS[1]
+5 1.0
+
+ * YELLOW[1]
+8 1.0
+
+ * DONGKYU[1]
+9 1.0
+
+ * DIED[1]
+7 1.0
+
+ * HARD[1]
+5 1.0
+
+ * KOREA[1]
+4 2.0
+
+ * LIKES[1]
+6 1.0
+
+ * MELON[1]
+1 1.0
+
+ * WE[1]
+7 1.0
+
+ * DIET[1]
+3 1.0
+
+ * EVERYDAY[1]
+3 1.0
+
+ * OF[4]
+1 0.25
+4 0.75
+6 0.5
+7 0.25
+
+ * ALSO[3]
+3 0.33333334
+5 0.33333334
+10 0.33333334
+
+ * JINYON[1]
+9 1.0
+
+ * ICECREAM[1]
+1 3.0
+
+ * SUMMER[1]
+2 4.0
+
+ * SUFFERING[1]
+7 1.0
+
+ * WHITE[1]
+8 1.0
+
+ * PLAGUE[1]
+7 1.0
+
+ * WELL[1]
+10 1.0
+
+ * GO[1]
+2 2.0
+
+ * DYING[1]
+7 1.0
+
+ * TIME[1]
+7 2.0
+
+ * UNTIL[1]
+5 1.0
+
+ * PUT[1]
+8 1.0
+
+ * PAIN[1]
+7 1.0
+
+ * VISIT[1]
+4 1.0
+
+ * FINGER[1]
+10 1.0
+
+ * PEOPLE[1]
+2 1.0
+
+ * WILL[1]
+5 1.0
+
+----------------------------------------------
+JAVA            5 1.0
+OLD             7 1.0
+SPECIES         7 1.0
+GORILLA         3 1.0
+SHOULD          7 1.0
+BECAUSE         7 2.0
+EVERY           7 1.0
+STUDY           10 1.0
+PLAY            5 1.0
+WHEN            5 1.0
+WHEN            10 1.0
+DOG             6 5.0
+IF              8 1.0
+VERY            1 0.14285715
+VERY            2 0.2857143
+VERY            3 0.14285715
+VERY            4 0.14285715
+VERY            5 0.2857143
+VERY            6 0.2857143
+VERY            7 0.14285715
+IN              4 1.0
+IN              7 0.5
+CLOTH           8 1.0
+IS              1 0.2
+IS              2 0.2
+IS              3 0.3
+IS              4 0.5
+IS              5 0.3
+IS              6 0.4
+IS              7 0.3
+IS              8 0.4
+IS              9 0.6
+IS              10 0.1
+IT              1 0.25
+IT              4 0.25
+IT              5 0.25
+IT              7 0.25
+HANDSOME        9 5.0
+HOT             2 1.0
+HOT             4 0.5
+AN              1 2.0
+JINYONG         9 1.0
+BEER            5 1.0
+OUT             7 1.0
+MONKEY          3 2.0
+RD              4 1.0
+AT              2 1.0
+ARE             4 0.5
+ARE             6 0.5
+TOO             2 0.33333334
+TOO             3 0.6666667
+TOO             6 0.33333334
+DISEASE         7 1.0
+WANT            7 1.0
+EAT             3 0.33333334
+EAT             7 0.33333334
+EAT             10 0.33333334
+BANANA          3 2.3333333
+BANANA          7 2.6666667
+BANANA          8 3.3333333
+MILK            7 1.0
+CALL            5 1.0
+A               6 0.6666667
+A               7 0.33333334
+A               10 0.33333334
+C               5 2.0
+YAONG           6 1.0
+NOWHERE         4 1.0
+COMMING         2 1.0
+ONE             7 1.0
+I               1 0.25
+I               2 0.25
+I               3 0.25
+I               4 0.125
+I               5 0.75
+I               6 0.125
+I               7 0.25
+I               10 0.625
+PYTHON          5 1.0
+LOVELY          6 1.0
+OFF             8 1.0
+HAND            10 6.0
+SUFFERED        7 1.0
+THE             1 0.33333334
+THE             3 0.6666667
+THE             4 1.0
+LOVE            1 0.5
+LOVE            4 0.5
+SOUND           6 2.0
+ALTHOUGH        2 1.0
+FUN             5 1.0
+SMELL           8 0.5
+SMELL           10 0.5
+FLAVOR          1 0.5
+FLAVOR          8 0.5
+BUT             4 1.0
+LOTS            4 1.0
+MUSIC           5 1.0
+DIE             5 1.0
+WEATHER         4 1.0
+CHOCOPIE        7 1.0
+USE             5 0.5
+USE             10 1.0
+BIGGEST         4 1.0
+SWEET           3 1.0
+PREVENT         7 1.0
+CONTAGIOUS      7 1.0
+CITY            4 2.0
+LOVES           3 2.0
+CHASANGKYUN     9 1.0
+DAT             6 1.0
+JUICE           7 1.0
+TO              2 0.25
+TO              4 0.25
+TO              5 0.25
+TO              7 0.25
+HAS             8 1.0
+HAS             10 1.0
+CUTE            6 1.0
+CUTE            10 0.5
+FOOD            4 0.5
+FOOD            10 0.5
+BEACH           2 1.0
+APPLE           8 1.0
+THERE           2 0.5
+THERE           4 1.0
+ITS             2 0.33333334
+ITS             4 0.33333334
+ITS             8 0.33333334
+DAEGU           4 4.0
+DO              5 2.0
+FIVE            10 1.0
+DELICIOUS       1 0.5
+DELICIOUS       3 0.25
+DELICIOUS       4 0.25
+DELICIOUS       10 0.25
+ME              6 1.0
+YUNSU           9 1.0
+GOOD            3 0.6666667
+GOOD            5 0.33333334
+GOOD            10 0.33333334
+DRINK           5 1.0
+DELCIOUS        7 1.0
+BOTH            6 1.0
+MOST            1 1.0
+CODING          5 4.0
+JONGIN          9 1.0
+FOR             3 1.0
+MY              10 3.0
+CAN             5 1.0
+MEONGMEONG      6 1.0
+NICKNAME        4 1.0
+NOT             8 1.0
+LIKE            1 0.2
+LIKE            2 0.4
+LIKE            3 0.2
+LIKE            6 0.2
+LIKE            7 0.2
+NODONGYO        5 1.0
+AND             3 0.2
+AND             5 0.2
+AND             6 1.0
+AND             7 0.4
+AND             8 0.2
+DAEFRICA        4 1.0
+CAT             6 4.0
+NOW             7 1.0
+WASH            10 1.0
+UGLY            9 1.0
+THIS            5 1.0
+YELLOW          8 1.0
+DONGKYU         9 1.0
+DIED            7 1.0
+HARD            5 1.0
+KOREA           4 2.0
+LIKES           6 1.0
+MELON           1 1.0
+WE              7 1.0
+DIET            3 1.0
+EVERYDAY        3 1.0
+OF              1 0.25
+OF              4 0.75
+OF              6 0.5
+OF              7 0.25
+ALSO            3 0.33333334
+ALSO            5 0.33333334
+ALSO            10 0.33333334
+JINYON          9 1.0
+ICECREAM        1 3.0
+SUMMER          2 4.0
+SUFFERING       7 1.0
+WHITE           8 1.0
+PLAGUE          7 1.0
+WELL            10 1.0
+GO              2 2.0
+DYING           7 1.0
+TIME            7 2.0
+UNTIL           5 1.0
+PUT             8 1.0
+PAIN            7 1.0
+VISIT           4 1.0
+FINGER          10 1.0
+PEOPLE          2 1.0
+WILL            5 1.0
+----------------------------------------------
+true
+true
+true
+BANANA		3 2.3333333
+BANANA		7 2.6666667
+BANANA		8 3.3333333
+----------------------------------------------
+ALSO		3 0.33333334
+ALSO		5 0.33333334
+ALSO		10 0.33333334
+ALTHOUGH		2 1.0
+AND		3 0.2
+AND		5 0.2
+AND		6 1.0
+AND		7 0.4
+AND		8 0.2
+AN		1 2.0
+APPLE		8 1.0
+ARE		4 0.5
+ARE		6 0.5
+AT		2 1.0
+BANANA		3 2.3333333
+BANANA		7 2.6666667
+BANANA		8 3.3333333
+BEACH		2 1.0
+BECAUSE		7 2.0
+BEER		5 1.0
+BIGGEST		4 1.0
+BOTH		6 1.0
+BUT		4 1.0
+CALL		5 1.0
+CAN		5 1.0
+CAT		6 4.0
+CHASANGKYUN		9 1.0
+CHOCOPIE		7 1.0
+CITY		4 2.0
+CLOTH		8 1.0
+CODING		5 4.0
+COMMING		2 1.0
+CONTAGIOUS		7 1.0
+CUTE		6 1.0
+CUTE		10 0.5
+DAEFRICA		4 1.0
+DAEGU		4 4.0
+DAT		6 1.0
+DELCIOUS		7 1.0
+DELICIOUS		1 0.5
+DELICIOUS		3 0.25
+DELICIOUS		4 0.25
+DELICIOUS		10 0.25
+DIED		7 1.0
+DIET		3 1.0
+DIE		5 1.0
+DISEASE		7 1.0
+DOG		6 5.0
+DONGKYU		9 1.0
+DRINK		5 1.0
+DYING		7 1.0
+EAT		3 0.33333334
+EAT		7 0.33333334
+EAT		10 0.33333334
+EVERYDAY		3 1.0
+EVERY		7 1.0
+FINGER		10 1.0
+FIVE		10 1.0
+FLAVOR		1 0.5
+FLAVOR		8 0.5
+FOOD		4 0.5
+FOOD		10 0.5
+FOR		3 1.0
+FUN		5 1.0
+GOOD		3 0.6666667
+GOOD		5 0.33333334
+GOOD		10 0.33333334
+GORILLA		3 1.0
+HANDSOME		9 5.0
+HARD		5 1.0
+HAS		8 1.0
+HAS		10 1.0
+HOT		2 1.0
+HOT		4 0.5
+ICECREAM		1 3.0
+IF		8 1.0
+IN		4 1.0
+IN		7 0.5
+IS		1 0.2
+IS		2 0.2
+IS		3 0.3
+IS		4 0.5
+IS		5 0.3
+IS		6 0.4
+IS		7 0.3
+IS		8 0.4
+IS		9 0.6
+IS		10 0.1
+ITS		2 0.33333334
+ITS		4 0.33333334
+ITS		8 0.33333334
+IT		1 0.25
+IT		4 0.25
+IT		5 0.25
+IT		7 0.25
+JAVA		5 1.0
+JINYONG		9 1.0
+JONGIN		9 1.0
+JUICE		7 1.0
+KOREA		4 2.0
+LIKES		6 1.0
+LIKE		1 0.2
+LIKE		2 0.4
+LIKE		3 0.2
+LIKE		6 0.2
+LIKE		7 0.2
+LOTS		4 1.0
+LOVELY		6 1.0
+LOVES		3 2.0
+MELON		1 1.0
+MEONGMEONG		6 1.0
+ME		6 1.0
+MILK		7 1.0
+MONKEY		3 2.0
+MOST		1 1.0
+MUSIC		5 1.0
+MY		10 3.0
+NICKNAME		4 1.0
+NODONGYO		5 1.0
+NOT		8 1.0
+NOWHERE		4 1.0
+OFF		8 1.0
+OLD		7 1.0
+ONE		7 1.0
+OUT		7 1.0
+PAIN		7 1.0
+PEOPLE		2 1.0
+PLAGUE		7 1.0
+PLAY		5 1.0
+PREVENT		7 1.0
+PUT		8 1.0
+PYTHON		5 1.0
+RD		4 1.0
+SHOULD		7 1.0
+SMELL		8 0.5
+SMELL		10 0.5
+SOUND		6 2.0
+SPECIES		7 1.0
+STUDY		10 1.0
+SUFFERED		7 1.0
+SUFFERING		7 1.0
+SUMMER		2 4.0
+SWEET		3 1.0
+THERE		2 0.5
+THERE		4 1.0
+THE		1 0.33333334
+THE		3 0.6666667
+THE		4 1.0
+THIS		5 1.0
+TIME		7 2.0
+TOO		2 0.33333334
+TOO		3 0.6666667
+TOO		6 0.33333334
+UGLY		9 1.0
+UNTIL		5 1.0
+USE		5 0.5
+USE		10 1.0
+VERY		1 0.14285715
+VERY		2 0.2857143
+VERY		3 0.14285715
+VERY		4 0.14285715
+VERY		5 0.2857143
+VERY		6 0.2857143
+VERY		7 0.14285715
+VISIT		4 1.0
+WANT		7 1.0
+WASH		10 1.0
+WEATHER		4 1.0
+WELL		10 1.0
+WHEN		5 1.0
+WHEN		10 1.0
+WHITE		8 1.0
+WILL		5 1.0
+YAONG		6 1.0
+YELLOW		8 1.0
+YUNSU		9 1.0
+----------------------------------------------
